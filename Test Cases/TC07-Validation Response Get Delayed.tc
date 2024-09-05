@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07-Validation Response Get Delayed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04eb2bef-a000-45ae-b630-2b00a6416d7e</testCaseGuid>
+</TestCaseEntity>

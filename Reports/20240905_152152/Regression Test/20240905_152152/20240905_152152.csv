@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,,,,05-09-2024 15:22:04,05-09-2024 15:22:18,14.778s,PASSED
+,,,,,,,
+Test Cases/TC01-Validation Response and verify JSON Value,,,,05-09-2024 15:22:04,05-09-2024 15:22:12,7.705s,PASSED
+"sendRequest(findTestObject(""Get User/List User by page 1""))",,Send request,,05-09-2024 15:22:05,05-09-2024 15:22:09,4.190s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Get User/List User by page 1""))",,Send request and Verify response,,05-09-2024 15:22:09,05-09-2024 15:22:11,2.546s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify response status code,,05-09-2024 15:22:11,05-09-2024 15:22:11,0.021s,PASSED
+"verifyElementsCount(response, ""data.first_name"", 6)",,Verify total element at JSON,,05-09-2024 15:22:11,05-09-2024 15:22:12,0.281s,PASSED
+"verifyElementPropertyValue(response, ""data[0].first_name"", ""George"")",,Verify Element at JSON,,05-09-2024 15:22:12,05-09-2024 15:22:12,0.110s,PASSED
+,,,,,,,
+Test Cases/TC02-Validation Response Create User,,,,05-09-2024 15:22:12,05-09-2024 15:22:13,1.631s,PASSED
+"sendRequest(findTestObject(""Post User/Create User""))",,Send request,,05-09-2024 15:22:12,05-09-2024 15:22:12,0.478s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Post User/Create User""))",,Send request and Verify response,,05-09-2024 15:22:12,05-09-2024 15:22:13,0.933s,PASSED
+"verifyResponseStatusCode(response, 201)",,Verify response status code,,05-09-2024 15:22:13,05-09-2024 15:22:13,0.007s,PASSED
+,,,,,,,
+Test Cases/TC03-Validation Response Register Success,,,,05-09-2024 15:22:13,05-09-2024 15:22:15,1.494s,PASSED
+"sendRequest(findTestObject(""Post User/Register Success - 1""))",,"Send Request
+",,05-09-2024 15:22:14,05-09-2024 15:22:14,0.432s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Post User/Register Success - 1""))",,Send request and verify response,,05-09-2024 15:22:14,05-09-2024 15:22:15,0.886s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify response status code,,05-09-2024 15:22:15,05-09-2024 15:22:15,0.006s,PASSED
+,,,,,,,
+Test Cases/TC04-Validation Response Login Success,,,,05-09-2024 15:22:15,05-09-2024 15:22:16,1.157s,PASSED
+"sendRequest(findTestObject(""Post User/Login Success""))",,,,05-09-2024 15:22:15,05-09-2024 15:22:15,0.458s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Post User/Login Success""))",,,,05-09-2024 15:22:15,05-09-2024 15:22:16,0.534s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,05-09-2024 15:22:16,05-09-2024 15:22:16,0.005s,PASSED
+,,,,,,,
+Test Cases/TC05-Validation Response PUT Update User,,,,05-09-2024 15:22:16,05-09-2024 15:22:17,1.126s,PASSED
+"sendRequest(findTestObject(""Update User/Put User""))",,,,05-09-2024 15:22:16,05-09-2024 15:22:17,0.445s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Update User/Put User""))",,,,05-09-2024 15:22:17,05-09-2024 15:22:17,0.505s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,05-09-2024 15:22:17,05-09-2024 15:22:17,0.005s,PASSED
+,,,,,,,
+Test Cases/TC06-Validation response Delete User,,,,05-09-2024 15:22:17,05-09-2024 15:22:18,1.297s,PASSED
+"sendRequest(findTestObject(""Delete User/Delete User""))",,,,05-09-2024 15:22:17,05-09-2024 15:22:18,0.459s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Delete User/Delete User""))",,,,05-09-2024 15:22:18,05-09-2024 15:22:18,0.686s,PASSED
+"verifyResponseStatusCode(response, 204)",,,,05-09-2024 15:22:18,05-09-2024 15:22:18,0.005s,PASSED

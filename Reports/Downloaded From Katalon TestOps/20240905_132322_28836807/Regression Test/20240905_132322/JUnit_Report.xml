@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test" time="15.415" tests="6" failures="0" errors="0">
+   <testsuite name="Regression Test" tests="6" failures="0" errors="0" time="15.415" skipped="0" timestamp="05-09-2024T13:23:42" hostname="Majoo - host.docker.internal" id="Test Suites/Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Majoo\\Katalon Studio\\Reqres\\Reports\\20240905_132322\\Regression Test\\20240905_132322"/>
+         <property name="logFiles" value="C:\\Users\\Majoo\\Katalon Studio\\Reqres\\Reports\\20240905_132322\\Regression Test\\20240905_132322\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Majoo - host.docker.internal"/>
+         <property name="hostAddress" value="192.168.100.26"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/TC01-Validation Response and verify JSON Value" time="8.169" classname="Test Cases/TC01-Validation Response and verify JSON Value" status="PASSED">
+         <system-out><![CDATA[05-09-2024T13:23:43 - [TEST_CASE][PASSED] - Test Cases/TC01-Validation Response and verify JSON Value: Test Cases/TC01-Validation Response and verify JSON Value
+
+05-09-2024T13:23:43 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Get User/List User by page 1")): Send request successfully
+
+05-09-2024T13:23:47 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\0.har
+
+05-09-2024T13:23:48 - [MESSAGE][PASSED] - Send request successfully
+
+05-09-2024T13:23:48 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Get User/List User by page 1")): Send request and verify the response successfully
+
+05-09-2024T13:23:48 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\1.har
+
+05-09-2024T13:23:48 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+05-09-2024T13:23:49 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+05-09-2024T13:23:49 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+05-09-2024T13:23:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+05-09-2024T13:23:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+05-09-2024T13:23:49 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+05-09-2024T13:23:50 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+05-09-2024T13:23:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].first_name", "George"): Verify element property value successfully
+
+05-09-2024T13:23:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+05-09-2024T13:23:50 - [MESSAGE][PASSED] - Verify response successfully
+
+05-09-2024T13:23:50 - [MESSAGE][PASSED] - All validation steps have been passed
+
+05-09-2024T13:23:50 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+05-09-2024T13:23:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+05-09-2024T13:23:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+05-09-2024T13:23:50 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data.first_name", 6): Verify element count successfully
+
+05-09-2024T13:23:50 - [MESSAGE][PASSED] - Verify element count successfully
+
+05-09-2024T13:23:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].first_name", "George"): Verify element property value successfully
+
+05-09-2024T13:23:51 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02-Validation Response Create User" time="1.678" classname="Test Cases/TC02-Validation Response Create User" status="PASSED">
+         <system-out><![CDATA[05-09-2024T13:23:51 - [TEST_CASE][PASSED] - Test Cases/TC02-Validation Response Create User: Test Cases/TC02-Validation Response Create User
+
+05-09-2024T13:23:51 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Post User/Create User")): Send request successfully
+
+05-09-2024T13:23:51 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\2.har
+
+05-09-2024T13:23:51 - [MESSAGE][PASSED] - Send request successfully
+
+05-09-2024T13:23:51 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Post User/Create User")): Send request and verify the response successfully
+
+05-09-2024T13:23:52 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\3.har
+
+05-09-2024T13:23:52 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+05-09-2024T13:23:52 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+05-09-2024T13:23:52 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+05-09-2024T13:23:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+05-09-2024T13:23:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+05-09-2024T13:23:52 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+05-09-2024T13:23:52 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+05-09-2024T13:23:52 - [MESSAGE][PASSED] - Verify response successfully
+
+05-09-2024T13:23:52 - [MESSAGE][PASSED] - All validation steps have been passed
+
+05-09-2024T13:23:52 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+05-09-2024T13:23:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+05-09-2024T13:23:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03-Validation Response Register Success" time="1.518" classname="Test Cases/TC03-Validation Response Register Success" status="PASSED">
+         <system-out><![CDATA[05-09-2024T13:23:52 - [TEST_CASE][PASSED] - Test Cases/TC03-Validation Response Register Success: Test Cases/TC03-Validation Response Register Success
+
+05-09-2024T13:23:53 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Post User/Register Success - 1")): Send request successfully
+
+05-09-2024T13:23:53 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\4.har
+
+05-09-2024T13:23:53 - [MESSAGE][PASSED] - Send request successfully
+
+05-09-2024T13:23:53 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Post User/Register Success - 1")): Send request and verify the response successfully
+
+05-09-2024T13:23:53 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\5.har
+
+05-09-2024T13:23:53 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+05-09-2024T13:23:54 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+05-09-2024T13:23:54 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+05-09-2024T13:23:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+05-09-2024T13:23:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+05-09-2024T13:23:54 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+05-09-2024T13:23:54 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+05-09-2024T13:23:54 - [MESSAGE][PASSED] - Verify response successfully
+
+05-09-2024T13:23:54 - [MESSAGE][PASSED] - All validation steps have been passed
+
+05-09-2024T13:23:54 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+05-09-2024T13:23:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+05-09-2024T13:23:54 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04-Validation Response Login Success" time="1.156" classname="Test Cases/TC04-Validation Response Login Success" status="PASSED">
+         <system-out><![CDATA[05-09-2024T13:23:54 - [TEST_CASE][PASSED] - Test Cases/TC04-Validation Response Login Success: Test Cases/TC04-Validation Response Login Success
+
+05-09-2024T13:23:54 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Post User/Login Success")): Send request successfully
+
+05-09-2024T13:23:55 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\6.har
+
+05-09-2024T13:23:55 - [MESSAGE][PASSED] - Send request successfully
+
+05-09-2024T13:23:55 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Post User/Login Success")): Send request and verify the response successfully
+
+05-09-2024T13:23:55 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\7.har
+
+05-09-2024T13:23:55 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+05-09-2024T13:23:55 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+05-09-2024T13:23:55 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+05-09-2024T13:23:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+05-09-2024T13:23:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+05-09-2024T13:23:55 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+05-09-2024T13:23:55 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+05-09-2024T13:23:55 - [MESSAGE][PASSED] - Verify response successfully
+
+05-09-2024T13:23:55 - [MESSAGE][PASSED] - All validation steps have been passed
+
+05-09-2024T13:23:55 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+05-09-2024T13:23:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+05-09-2024T13:23:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05-Validation Response PUT Update User" time="1.07" classname="Test Cases/TC05-Validation Response PUT Update User" status="PASSED">
+         <system-out><![CDATA[05-09-2024T13:23:55 - [TEST_CASE][PASSED] - Test Cases/TC05-Validation Response PUT Update User: Test Cases/TC05-Validation Response PUT Update User
+
+05-09-2024T13:23:55 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Update User/Put User")): Send request successfully
+
+05-09-2024T13:23:56 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\8.har
+
+05-09-2024T13:23:56 - [MESSAGE][PASSED] - Send request successfully
+
+05-09-2024T13:23:56 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Update User/Put User")): Send request and verify the response successfully
+
+05-09-2024T13:23:56 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\9.har
+
+05-09-2024T13:23:56 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+05-09-2024T13:23:56 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+05-09-2024T13:23:56 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+05-09-2024T13:23:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+05-09-2024T13:23:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+05-09-2024T13:23:56 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+05-09-2024T13:23:56 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+05-09-2024T13:23:56 - [MESSAGE][PASSED] - Verify response successfully
+
+05-09-2024T13:23:56 - [MESSAGE][PASSED] - All validation steps have been passed
+
+05-09-2024T13:23:56 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+05-09-2024T13:23:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+05-09-2024T13:23:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06-Validation response Delete User" time="1.198" classname="Test Cases/TC06-Validation response Delete User" status="PASSED">
+         <system-out><![CDATA[05-09-2024T13:23:56 - [TEST_CASE][PASSED] - Test Cases/TC06-Validation response Delete User: Test Cases/TC06-Validation response Delete User
+
+05-09-2024T13:23:56 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Delete User/Delete User")): Send request successfully
+
+05-09-2024T13:23:57 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\10.har
+
+05-09-2024T13:23:57 - [MESSAGE][PASSED] - Send request successfully
+
+05-09-2024T13:23:57 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Delete User/Delete User")): Send request and verify the response successfully
+
+05-09-2024T13:23:57 - [MESSAGE][INFO] - HAR: C:\Users\Majoo\Katalon Studio\Reqres\Reports\20240905_132322\Regression Test\20240905_132322\requests\main\11.har
+
+05-09-2024T13:23:57 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+05-09-2024T13:23:57 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+05-09-2024T13:23:57 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+05-09-2024T13:23:57 - [MESSAGE][PASSED] - Verify response successfully
+
+05-09-2024T13:23:57 - [MESSAGE][PASSED] - All validation steps have been passed
+
+05-09-2024T13:23:57 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+05-09-2024T13:23:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+05-09-2024T13:23:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-09-2024T13:23:42 - [TEST_SUITE][PASSED] - Regression Test: Test Cases/TC06-Validation response Delete User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

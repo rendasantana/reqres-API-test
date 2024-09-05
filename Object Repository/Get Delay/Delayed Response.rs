@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Delayed Response - 1</name>
+   <name>Delayed Response</name>
    <tag></tag>
    <elementGuidId>3ef22062-48fd-4c35-81a1-ee983771b860</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -51,6 +51,14 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+WS.verifyResponseStatusCode(response, 200)
+
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+
+assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
