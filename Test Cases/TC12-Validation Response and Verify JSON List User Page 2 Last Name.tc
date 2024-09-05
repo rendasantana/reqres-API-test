@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12-Validation Response and Verify JSON List User Page 2 Last Name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f66c35a2-3c80-4617-8ea2-56f6bd2912a9</testCaseGuid>
+</TestCaseEntity>

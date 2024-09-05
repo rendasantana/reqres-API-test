@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/TC01-Validation Response and verify JSON Value","testCaseId":"Test Cases/TC01-Validation Response and verify JSON Value","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC02-Validation Response Create User","testCaseId":"Test Cases/TC02-Validation Response Create User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC03-Validation Response Register Success","testCaseId":"Test Cases/TC03-Validation Response Register Success","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC04-Validation Response Login Success","testCaseId":"Test Cases/TC04-Validation Response Login Success","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC05-Validation Response PUT Update User","testCaseId":"Test Cases/TC05-Validation Response PUT Update User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC06-Validation response Delete User","testCaseId":"Test Cases/TC06-Validation response Delete User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC07-Validation Response Get Delayed","testCaseId":"Test Cases/TC07-Validation Response Get Delayed","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC08-Validation Response List Resource","testCaseId":"Test Cases/TC08-Validation Response List Resource","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC09-Validation Response Login Unsuccessful","testCaseId":"Test Cases/TC09-Validation Response Login Unsuccessful","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC010-Validation Response Register Unsuccessful","testCaseId":"Test Cases/TC010-Validation Response Register Unsuccessful","iterationVariableName":""}

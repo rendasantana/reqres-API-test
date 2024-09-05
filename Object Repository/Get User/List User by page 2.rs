@@ -43,6 +43,17 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 WS.verifyResponseStatusCode(response, 200)
 
-assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+
+WS.verifyResponseStatusCode(response, 200)
+
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+
+assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))
+
+WS.verifyElementPropertyValue(response, 'data[0].last_name', 'Lawson')
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

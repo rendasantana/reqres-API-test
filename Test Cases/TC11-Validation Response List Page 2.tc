@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC010-Validation Response Register Unsuccessful</name>
+   <name>TC11-Validation Response List Page 2</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>08a85143-e905-4bf5-ac51-53595886b408</testCaseGuid>
+   <testCaseGuid>7e20c659-d891-49f5-a03c-e1b3f455f2d4</testCaseGuid>
 </TestCaseEntity>
