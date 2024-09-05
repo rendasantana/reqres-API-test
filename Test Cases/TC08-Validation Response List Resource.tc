@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08-Validation Response List Resource</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a3a4b332-fe28-4dcb-8925-e309ca841e9b</testCaseGuid>
+</TestCaseEntity>
