@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01-Validation Response and verify JSON Value</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8a90373-0ad2-4d74-9bd3-2825ee3e0a44</testCaseGuid>
+</TestCaseEntity>

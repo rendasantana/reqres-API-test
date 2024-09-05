@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03-Validation Response Register Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60f5ab3b-c99e-44a3-a1bc-c9a89346a4b7</testCaseGuid>
+</TestCaseEntity>

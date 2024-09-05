@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>TC06-Validation response Delete User</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3a35fc35-2063-4c05-8da0-05a3b0b17e97</testCaseGuid>
+   <testCaseGuid>de2bb65f-ab23-40bb-8f3a-8570b450a919</testCaseGuid>
 </TestCaseEntity>
